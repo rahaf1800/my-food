@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>أكلتي المفضلة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>شاورما دجاج</h1>
+
+    <p>تعتبر الشاورما من أشهر وألذ المأكولات في بلاد الشام، وتتميز بتتبيلتها الغنية ونكهتها الفريدة.</p>
+
+    <img src="food.jpg" alt="صورة شاورما">
+
+    <h2>المكونات الأساسية:</h2>
+    <ul>
+        <li>صدر دجاج متبل ومشوي</li>
+        <li>خبز صاج أو عربي</li>
+        <li>كريم ثوم ومخلل خيار</li>
+    </ul>
+
+    <a href="https://cookpad.com" target="_blank">اضغط هنا لقراءة الوصفة الكاملة</a>
+
+    <br><br>
+
+    <button id="favBtn">أحب هذه الأكلة!</button>
+
+    <script>
+        const btn = document.getElementById("favBtn");
+        btn.addEventListener("click", function() {
+            alert("اختيار رائع! صحتين وهنا على قلبك 🍽️");
+        });
+    </script>
+
+</body>
+</html>
